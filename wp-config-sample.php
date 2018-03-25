@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'e9VSxavqMxfarH5W');
+define('SECURE_AUTH_KEY',  'uAZDBTa8vn3qjGkt');
+define('LOGGED_IN_KEY',    'x25BTsj7KyVAYteR');
+define('NONCE_KEY',        '2hMQgGwtdpFyLRU9');
+define('AUTH_SALT',        'vjbTSCdm7TEPUbcY');
+define('SECURE_AUTH_SALT', 'qvQU7N7Z7bxyrHJ7');
+define('LOGGED_IN_SALT',   'L4rUDgSELjSYvc9W');
+define('NONCE_SALT',       '8GDHPScSnhzXSt9B');
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'rc_';
 
 /**
  * For developers: WordPress debugging mode.
